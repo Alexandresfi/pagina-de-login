@@ -30,7 +30,7 @@ export default function Login (props){
 
         <div className="line"/>
 
-        <LinkCA ca={props.ca} lk={props.lk}/>
+        <LinkCA ca={props.ca} lk={props.lk} lca={props.lca} to={props.lca}/>
 
     </Form>
     )

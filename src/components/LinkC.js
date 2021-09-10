@@ -10,7 +10,7 @@ export  function LinkC (props){
 export function LinkCA (props) {
 
     return(
-        <Link to={props.lk} className="end">{props.ca}</Link>
+        <Link to={props.lca} className="end">{props.ca}</Link>
     )
 }
 

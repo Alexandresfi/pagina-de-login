@@ -143,3 +143,67 @@ export const Form = styled.form`
             }
 
 `;
+
+export const AreaContainer = styled.div`
+
+    padding: 2.25rem;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+        h1{
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 120%;
+            margin-right: auto;
+            color: #00593c;
+            font-weight: 700;
+            margin-left: 20vw;
+            margin-top: 3vh;
+        }
+
+        span{
+            font-size: 6rem;
+            color: #00593c;
+            margin-left: 10vw;
+        }
+
+        img{
+            width: 175;
+            height: 175;
+            fill: none;
+            overflow: hidden;
+        } 
+
+        p{
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: black;
+            text-align: center;
+        }
+
+        a{
+            
+            text-decoration:none;
+            background-color:#04943c;
+            color: white;
+            width: calc(100% - 2rem);
+            max-width: 18.75rem;
+            height: 5.125rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid transparent;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 30px;
+
+        }
+
+`;
