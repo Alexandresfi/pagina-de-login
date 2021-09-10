@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Router, Switch } from "react-router";
+import { Route, Switch } from "react-router";
 import Header from "../Header";
 import Login from "../login1";
 export default function Routes (){

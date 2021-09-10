@@ -1,9 +1,9 @@
 import React from 'react'
 import { InputArea } from '../styled-components/Styled'
-import Input from './Input'
+import InputCPF from './InputCPF'
 import { Form } from '../styled-components/Styled'
 import {LinkC, LinkCA} from './LinkC'
-import InputCPF from './Input'
+
 
 export default function Login (props){
 
