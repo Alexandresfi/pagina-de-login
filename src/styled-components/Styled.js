@@ -61,7 +61,7 @@ export const Form = styled.form`
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 80%;
+    height: 95%;
     width: 100vw;
     border-radius: 10px;
     padding: 10vw;

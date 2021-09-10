@@ -48,11 +48,6 @@ body{
         max-width: 21.87rem;
     }
 
-    header{
-        position: static;
-    }
-    
-
 }
 
 
@@ -70,7 +65,7 @@ header{
 img{
     max-height: 16.625rem;
     height: calc(100% - 3rem);
-    max-height: 34.625rem;
+    max-height: 30rem;
 
     
     filter: drop-shadow(0 4px 4px rgba(0,0,0,.4));
