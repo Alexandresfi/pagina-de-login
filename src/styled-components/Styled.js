@@ -12,28 +12,30 @@ export const InputArea = styled.div`
 
          label{
             position: absolute;
-            left: 6.5625rem;
+            left: 1.5625rem;
             bottom: 1.7rem;
             font-size: 0.875rem;
             font-weight: 500;
             color:#7a7a7a;
             pointer-events: none;
-            transition: .2s;
+            transition: 0.2s;
          }
 
             input{
-                    padding: 0.75rem 1.5625rem 0;
+                    padding: 1.9rem 3.7rem 1.2rem;
                     height: 100%;
-                    width: 26vw;
+                    width: 100%;
                     background-color: #f4f4f4;
                     border: 1px solid transparent;
                     border-radius: 25px;
-                    font-size: .875rem;
+                    font-size: 0.875rem;
                     color: #222;
                     box-shadow:0 0 2px rgba(0,0,0,0.2);;
                     outline: none;
                     margin: 0 auto 5px auto;
                  }
+
+                 
 
                  @media (max-width: 1024px){
                     input{
@@ -44,6 +46,10 @@ export const InputArea = styled.div`
                         left: 2rem;
                     }
                  }
+                 @media(min-width: 1024px){
+                    max-width: 21.875rem;
+                    
+                 }
 
             
 `;
@@ -53,9 +59,10 @@ export const Form = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: white;
-    height: 610px;
-    width: 800px;
+    height: 80%;
+    width: 100vw;
     border-radius: 10px;
     padding: 10vw;
     
@@ -76,7 +83,8 @@ export const Form = styled.form`
                 background-color:#04943c;
                 color: white;
                 height: 3.125rem;
-                width: 26vw;
+                width: 100vh;
+                max-width: 21.12rem;
                 font-size: 1rem;
                 font-weight: 500;
                 outline: none;
@@ -108,7 +116,8 @@ export const Form = styled.form`
 
                 
                 height: 3.125rem;
-                width: 26vw;
+                width: 20vw;
+                
                 font-size: 1rem;
                 font-weight: 500;
                 outline: none;
@@ -124,7 +133,7 @@ export const Form = styled.form`
                 margin-left: -62px;
 
                 button, .end{
-                    width: 65vw;
+                    width: 100%;
                 }
 
                 h1{
@@ -132,4 +141,5 @@ export const Form = styled.form`
                     padding-bottom: 20px;
                 }
             }
+
 `;

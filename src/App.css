@@ -26,44 +26,69 @@ body{
     }
 
     img{
-        max-width: 100%;
-        margin: 40px 60px 70px -35px ;
+        width: 100vw;
     }
 
 
     .App{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .App form{
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 
     button{
         max-width: 21.87rem;
     }
-    
 
-    img{
-        min-height: 80px;
-        height: calc(100% - 3rem);
-        max-height: 16.625rem;
+    header{
+        position: static;
     }
+    
 
 }
 
 
+header{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: calc(137vh - 360px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 img{
-    width: 70vh;
+    max-height: 16.625rem;
+    height: calc(100% - 3rem);
+    max-height: 34.625rem;
+
+    
     filter: drop-shadow(0 4px 4px rgba(0,0,0,.4));
     object-fit: contain;
     
 }
 
 .App{
-    text-align: center;
-    margin: 20px auto 20px 70px;
-    
+
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    flex-flow: row wrap;
     align-items: center;
+
+    text-align: center;
+    height: 100vh;
+    min-height: 100vh;
+
     
 }
+
+
