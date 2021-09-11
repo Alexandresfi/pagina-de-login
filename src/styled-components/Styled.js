@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const InputArea = styled.div`
 
     height: 3.125rem;
-    width: calc(100% - 2rem);
+    width: calc(100% - 6rem);
     position: relative;
     display: flex;
     align-items: center;
     border-radius: 25px;
     margin-bottom: 15px;
+    
 
          label{
             position: absolute;
@@ -38,8 +39,10 @@ export const InputArea = styled.div`
                  
 
                  @media (max-width: 1024px){
+                    margin-right: 6.5rem;
                     input{
                         width: 100vw;
+
                     }
 
                     label{
